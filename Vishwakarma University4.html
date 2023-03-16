@@ -1,0 +1,989 @@
+<!DOCTYPE html>
+<!-- saved from url=(0051)Vishwakarma University4.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		
+        <link rel="shortcut icon" type="image/png" href="https://erp.vupune.ac.in/images/logo.png">
+        <link rel="shortcut icon" type="image/png" href="https://erp.vupune.ac.in/Exam/images/logo.png">
+         <title id="title">Vishwakarma University</title>
+		 
+         
+		<meta name="description" content="Dynamic tables and grids using jqGrid plugin">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+		<!-- bootstrap & fontawesome -->        
+		<link rel="stylesheet" href="./Vishwakarma University4_files/bootstrap.css">
+		<link rel="stylesheet" href="./Vishwakarma University4_files/font-awesome.css">
+
+		<!-- page specific plugin styles -->
+		<link rel="stylesheet" href="./Vishwakarma University4_files/jquery-ui.css">
+		<link rel="stylesheet" href="./Vishwakarma University4_files/datepicker.css">
+		<link rel="stylesheet" href="./Vishwakarma University4_files/ui.jqgrid.css">
+
+		<!-- text fonts -->
+		<link rel="stylesheet" href="./Vishwakarma University4_files/ace-fonts.css">
+
+		<!-- ace styles -->
+		<link rel="stylesheet" href="./Vishwakarma University4_files/ace.css" class="ace-main-stylesheet" id="main-ace-style">
+
+		
+		<script src="./Vishwakarma University4_files/ace-extra.js"></script>
+
+		
+    <link rel="stylesheet" href="./Vishwakarma University4_files/style.css">
+    <link rel="stylesheet" href="./Vishwakarma University4_files/font-awesome.min.css">
+    <link href="./Vishwakarma University4_files/css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="./Vishwakarma University4_files/layerslider.css">
+    <link rel="stylesheet" href="./Vishwakarma University4_files/owl.carousel.min.css">
+    <link rel="stylesheet" href="./Vishwakarma University4_files/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./Vishwakarma University4_files/jquery.kyco.easyshare.css">
+    <link rel="stylesheet" href="./Vishwakarma University4_files/responsive.css">
+      
+    <link rel="stylesheet" href="./Vishwakarma University4_files/theme.css">
+       <!-------------------------------->
+	</head>
+
+	<body class="no-skin">
+		<!-- #section:basics/navbar.layout -->
+		<div id="navbar" class="navbar navbar-default navbar-fixed-top">
+			<script type="text/javascript">
+			    try { ace.settings.check('navbar', 'fixed') } catch (e) { }
+			</script>
+
+			<div class="navbar-container" id="navbar-container">
+				<!-- #section:basics/sidebar.mobile.toggle -->
+				<button type="button" class="navbar-toggle menu-toggler pull-left" id="menu-toggler" data-target="#sidebar">
+					<span class="sr-only">Toggle sidebar</span>
+
+					<span class="icon-bar"></span>
+
+					<span class="icon-bar"></span>
+
+					<span class="icon-bar"></span>
+				</button>
+
+				<!-- /section:basics/sidebar.mobile.toggle -->
+				<div class="navbar-header pull-left">
+					<!-- #section:basics/navbar.layout.brand -->
+					<a href="Vishwakarma University4.html#" class="navbar-brand">
+                        
+						<small>
+							
+							 <img src="./Vishwakarma University4_files/vu_log.png">    Student Portal
+						</small>
+					</a>
+
+					
+				</div>
+
+				<!-- #section:basics/navbar.dropdown -->
+				<div class="navbar-buttons navbar-header pull-right" role="navigation">
+					<ul class="nav ace-nav">
+						
+						<!-- #section:basics/navbar.user_menu -->
+						<li class="light-blue">
+							<a data-toggle="dropdown" href="Vishwakarma University4.html#" class="dropdown-toggle">
+								<img src="./Vishwakarma University4_files/user.jpg" id="userprofilepicture" class="nav-user-photo" alt="Jason&#39;s Photo">
+								<span class="user-info">
+									<small>Welcome,</small>
+									
+                                    <p id="name" style="color:#fff !important">Tanke Muhammad Affan</p>
+								</span>
+
+								<i class="ace-icon fa fa-caret-down"></i>
+							</a>
+
+							<ul class="user-menu dropdown-menu-right dropdown-menu dropdown-yellow dropdown-caret dropdown-close">
+								
+								
+                               
+								<li class="divider"></li>
+                                 <li>
+									<a href="https://erp.vupune.ac.in/Exam/ChangePassword.aspx">
+										<i class="ace-icon fa fa-user"></i>
+										Change Password
+									</a>
+								</li>
+
+								<li>
+									<a href="https://erp.vupune.ac.in/Logout.aspx">
+										<i class="ace-icon fa fa-power-off"></i>
+										Logout
+									</a>
+								</li>
+							</ul>
+						</li>
+
+						<!-- /section:basics/navbar.user_menu -->
+					</ul>
+				</div>
+
+				<!-- /section:basics/navbar.dropdown -->
+			</div><!-- /.navbar-container -->
+		</div>
+
+		<!-- /section:basics/navbar.layout -->
+		<div class="main-container" id="main-container">
+			<script type="text/javascript">
+			    try { ace.settings.check('main-container', 'fixed') } catch (e) { }
+			</script>
+
+			<!-- #section:basics/sidebar -->
+			<div id="sidebar" class="sidebar                  responsive sidebar-fixed" data-sidebar="true" data-sidebar-scroll="true" data-sidebar-hover="true">
+				<script type="text/javascript">
+				    try { ace.settings.check('sidebar', 'fixed') } catch (e) { }
+				</script>
+
+			<!-- /.sidebar-shortcuts -->
+
+				<div class="nav-wrap-up pos-rel"><div class="nav-wrap"><ul class="nav nav-list" style="position: relative; top: 0px; transition-property: top; transition-duration: 0.15s;">
+                     <li id="ProAdmissionDashboard" class="">
+						<a href="Vishwakarma University1.html">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								Admission Form
+							</span>						
+						</a>
+						<b class="arrow"></b>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+			       </li>
+                    <li id="PhotoSign" class="">
+						<a href="Vishwakarma University2.html">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								Photo &amp; Sign
+							</span>
+							
+						</a>
+
+						<b class="arrow"></b>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+			       </li>
+                      <li id="SubDocs" class="">
+						<a href="Vishwakarma University3.html">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								Submit Documents
+							</span>
+							
+						</a>
+
+						<b class="arrow"></b>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+			       </li>
+                    <li id="AdmissionFees" class="">
+						<a href="Vishwakarma University4.html">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								Admission Fees
+							</span>
+							
+						</a>
+
+						<b class="arrow"></b>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+			       </li>
+                     <li id="DwnldFeesDetails" class="">
+						<a href="Vishwakarma University5.html">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								Download Fees Info
+							</span>
+							
+						</a>
+
+						<b class="arrow"></b>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+			       </li>
+                       <li id="SubjectReg" class="">
+                     
+					    
+                            <a href="Vishwakarma University6.html">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+							Subject	Registration
+							</span>
+							
+						</a>
+
+						<b class="arrow"></b>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+			       </li>
+
+					<li id="examform" class="">
+						<a href="Vishwakarma University7.html">
+							<i class="menu-icon fa fa-tachometer"></i>
+							<span class="menu-text"> Exam Form </span>
+						</a>
+
+						<b class="arrow"></b>
+					</li>
+
+					<li id="Hallticket" class="">
+						<a href="Vishwakarma University8.html">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								 Hall Ticket
+							</span>
+							
+						</a>
+
+						<b class="arrow"></b>
+			       </li>
+                     <li id="Revaluation" class="">
+						
+                        <a href="Vishwakarma University9.html">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								Apply Revaluation
+							</span>
+							
+						</a>
+
+						<b class="arrow"></b>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+			       </li>
+                    <li id="Result" class="">
+						<a href="Vishwakarma University10.html">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								Result
+							</span>
+							
+						</a>
+
+						<b class="arrow"></b>
+			       </li>
+                   
+                  
+				     
+                   
+                     <li id="feedback" class="">
+						<a href="Vishwakarma University11.html">
+							<i class="menu-icon fa fa-desktop"></i>
+							<span class="menu-text">
+								Student Feedback
+							</span>
+							
+						</a>
+
+						<b class="arrow"></b>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+			       </li>
+                  
+                       
+                   
+ 				
+                   
+                     
+				</ul></div><div class="ace-scroll nav-scroll scroll-disabled"><div class="scroll-track scroll-hover" style="display: none;"><div class="scroll-bar" style="top: 0px; transition-property: top; transition-duration: 0.1s;"></div></div><div class="scroll-content" style=""><div></div></div></div></div><!-- /.nav-list -->
+                
+				<!-- #section:basics/sidebar.layout.minimize -->
+				<div class="sidebar-toggle sidebar-collapse" id="sidebar-collapse" style="z-index: 1;">
+					<i class="ace-icon fa fa-angle-double-left" data-icon1="ace-icon fa fa-angle-double-left" data-icon2="ace-icon fa fa-angle-double-right"></i>
+				</div>
+
+				<!-- /section:basics/sidebar.layout.minimize -->
+				<script type="text/javascript">
+				    try { ace.settings.check('sidebar', 'collapsed') } catch (e) { }
+				</script>
+			</div>
+
+			<!-- /section:basics/sidebar -->
+			<div class="main-content">
+				<div class="main-content-inner">
+					<!-- #section:basics/content.breadcrumbs -->
+					<div class="breadcrumbs" id="breadcrumbs">
+						<script type="text/javascript">
+						    try { ace.settings.check('breadcrumbs', 'fixed') } catch (e) { }
+						</script>
+
+						<ul class="breadcrumb">
+							<li>
+								<i class="ace-icon fa fa-home home-icon"></i>
+								<a href="Vishwakarma University4.html#">Home</a>
+							</li>
+
+						</ul><!-- /.breadcrumb -->
+
+						<!-- #section:basics/content.searchbox -->
+						<div class="nav-search" id="nav-search">
+							<form class="form-search">
+								<span class="input-icon">
+									<input type="text" placeholder="Search ..." class="nav-search-input" id="nav-search-input" autocomplete="off">
+									<i class="ace-icon fa fa-search nav-search-icon"></i>
+								</span>
+							</form>
+						</div><!-- /.nav-search -->
+
+						<!-- /section:basics/content.searchbox -->
+					</div>
+
+					<!-- /section:basics/content.breadcrumbs -->
+					<div class="page-content">
+						<!-- #section:settings.box -->
+						<div class="ace-settings-container" id="ace-settings-container">
+							<div class="btn btn-app btn-xs btn-warning ace-settings-btn" id="ace-settings-btn">
+								<i class="ace-icon fa fa-cog bigger-130"></i>
+							</div>
+
+							<div class="ace-settings-box clearfix" id="ace-settings-box">
+								<div class="pull-left width-50">
+									<!-- #section:settings.skins -->
+									<div class="ace-settings-item">
+										<div class="pull-left">
+											<select id="skin-colorpicker" class="hide">
+												<option data-skin="no-skin" value="#438EB9">#438EB9</option>
+												<option data-skin="skin-1" value="#222A2D">#222A2D</option>
+												<option data-skin="skin-2" value="#C6487E">#C6487E</option>
+												<option data-skin="skin-3" value="#D0D0D0">#D0D0D0</option>
+											</select><div class="dropdown dropdown-colorpicker">		<a data-toggle="dropdown" class="dropdown-toggle" href="Vishwakarma University4.html#"><span class="btn-colorpicker" style="background-color:#438EB9"></span></a><ul class="dropdown-menu dropdown-caret"><li><a class="colorpick-btn selected" href="Vishwakarma University4.html#" style="background-color:#438EB9;" data-color="#438EB9"></a></li><li><a class="colorpick-btn" href="Vishwakarma University4.html#" style="background-color:#222A2D;" data-color="#222A2D"></a></li><li><a class="colorpick-btn" href="Vishwakarma University4.html#" style="background-color:#C6487E;" data-color="#C6487E"></a></li><li><a class="colorpick-btn" href="Vishwakarma University4.html#" style="background-color:#D0D0D0;" data-color="#D0D0D0"></a></li></ul></div>
+										</div>
+										<span>&nbsp; Choose Skin</span>
+									</div>
+
+									<!-- /section:settings.skins -->
+
+									<!-- #section:settings.navbar -->
+									<div class="ace-settings-item">
+										<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-navbar">
+										<label class="lbl" for="ace-settings-navbar"> Fixed Navbar</label>
+									</div>
+
+									<!-- /section:settings.navbar -->
+
+									<!-- #section:settings.sidebar -->
+									<div class="ace-settings-item">
+										<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-sidebar">
+										<label class="lbl" for="ace-settings-sidebar"> Fixed Sidebar</label>
+									</div>
+
+									<!-- /section:settings.sidebar -->
+
+									<!-- #section:settings.breadcrumbs -->
+									<div class="ace-settings-item">
+										<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-breadcrumbs">
+										<label class="lbl" for="ace-settings-breadcrumbs"> Fixed Breadcrumbs</label>
+									</div>
+
+									<!-- /section:settings.breadcrumbs -->
+
+									<!-- #section:settings.rtl -->
+									<div class="ace-settings-item">
+										<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-rtl">
+										<label class="lbl" for="ace-settings-rtl"> Right To Left (rtl)</label>
+									</div>
+
+									<!-- /section:settings.rtl -->
+
+									<!-- #section:settings.container -->
+									<div class="ace-settings-item">
+										<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-add-container">
+										<label class="lbl" for="ace-settings-add-container">
+											Inside
+											<b>.container</b>
+										</label>
+									</div>
+
+									<!-- /section:settings.container -->
+								</div><!-- /.pull-left -->
+
+								<div class="pull-left width-50">
+									<!-- #section:basics/sidebar.options -->
+									<div class="ace-settings-item">
+										<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-hover">
+										<label class="lbl" for="ace-settings-hover"> Submenu on Hover</label>
+									</div>
+
+									<div class="ace-settings-item">
+										<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-compact">
+										<label class="lbl" for="ace-settings-compact"> Compact Sidebar</label>
+									</div>
+
+									<div class="ace-settings-item">
+										<input type="checkbox" class="ace ace-checkbox-2" id="ace-settings-highlight">
+										<label class="lbl" for="ace-settings-highlight"> Alt. Active Item</label>
+									</div>
+
+									<!-- /section:basics/sidebar.options -->
+								</div><!-- /.pull-left -->
+							</div><!-- /.ace-settings-box -->
+						</div><!-- /.ace-settings-container -->
+
+						
+                        
+    <link href="./Vishwakarma University4_files/datepicker.css" rel="stylesheet">
+    <link href="./Vishwakarma University4_files/daterangepicker.css" rel="stylesheet">
+    <script type="text/javascript" src="./Vishwakarma University4_files/jquery.min.js"></script>
+    <script src="./Vishwakarma University4_files/bootstrap-datepicker.js"></script>
+    
+    <form method="post" action="Vishwakarma University4.html" onsubmit="javascript:return WebForm_OnSubmit();" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="Ph8ckUUQUmYt9CFsuLE+4P1V3uACOLIu07fI1G9SBFR8GSEYp2JGxJza8BpbtqaPByb+wyCP7N+XyavE1mYPmEMViGJHqYVpnSJsRvsm77EkZpASiagjiuH/G2FsruxBe3BnJ3umTCxAnfRWK7HWr1BMdua7+suGUeiU9LTVZafSSStPgiVOhMYgEKJgVGWb5MuN2TEEapoUjNL2H4uH+jFHkP7UvEujYoTvQZFzFYp14EQltFhsc82iICxQKluF1BKbEy2oUGKtg8/SPI+AI8Sc5L8SAoJSZ+XRfCAa5PFosQVjRjDZZwrFESd4OoFxlxi8P2K2gS0fSy0DA82ZuVz/025B8MPpqIOBRp3KxDxyXeGhUJg1nq41lJR3fUfvQl1ebYrLfEEE18pcWgR2GTSyhw/MmnV+cEbhDHTT/VIIL4uKSid3gAda1E9FYXezdyw/kyDgTrEwLJM91F4ZctrxK+sZvXOutlv5ouQR0IS+75uJLsmPqQfPbup9sK0H7w2EznTb5KhnbMUXLlRjdnQOKMIvGEWmUkkmWU7I/+ADcIQt0zO/Idh9tv0F+F1GAJzTDhATxaLoQggRgua8BV6WHCWLYfd2oHbST5XABsaZayhYltSQ2mhrg7ibolSX91LjonqLmyJQljicZMc1VLrp+N1GvXgzF3V9qcJkjWNhp128s+B/+wSKDNCFiQXm1mioY8bIa/pIrGLoAeVnQ6StEYSghCDPIQBjPe6yqRl2AjVaNnNAlpXsNUvXcpW9wWvHMb79FDw2lK/RLcPjow==">
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="./Vishwakarma University4_files/WebResource.axd" type="text/javascript"></script>
+
+
+<script src="./Vishwakarma University4_files/WebResource(1).axd" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+function WebForm_OnSubmit() {
+if (typeof(ValidatorOnSubmit) == "function" && ValidatorOnSubmit() == false) return false;
+return true;
+}
+//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="2F504688">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="jR8o5a470yTPFTC6QHnDpaCe15vfGPMNtP6QQWLbIvQHRb4GA3bImLoupFDM3gw0zNEhSIgZRIphwk4Kz0SD5cnBoj2HOm3LaJcVEO6TArdvsapmOkLw9OVRTAPnC5OvjJJft9A43JvwTtJbp0NRbeGPxgceATOqFn37+040C38mbHTyDinvqRmTESNlreVD2a/5BOGLafMo9ktuzrNbf8KL4D/cW6HXnHDoUlDObA8zGdIypyf79e/IMgUs/Qigl9kkiPMFJPBlmVkAtQVkDwD3NS8XQPtSDdqfUKpLfQ9eqlyAGDyrOLDdoWKjmuEuW6VABfhwgnfdOJIOGNq7q6amr7nX6PGgwYMU2OGq/hoiSp6DfKxpHqeBuMAeuYhWSBW45/3+5muk+jal8gS6lWqfpLOfgnxJI6d52gaHCnLCUQWnNcVdohwR8PPH7hWdl3wDPP1RsY2naRYL55ziV/eDPyBBevnDGUdYcI64d6FZN/3tHbcVICZnKM59R60FaFpS+K36Ww4C5jyPoy/+aSFBczpWZFOPZDSVBdQLcA0SPrKUgqmFY6rHOljHvkzZL4mHtWr74RZ29jfUE9D/ZC0U3SIrYcvYgC1/lYMbJGOU1kYIVnZIYn1gonQ7vKzCycNSXUxw2XlEjnCzk3/WRQ==">
+</div>
+        <section id="main_content">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class=" box_style_2">
+                        <div class="page-header">
+                            <h1>Create Challan
+                                <small>
+                                    <i class="ace-icon fa fa-angle-double-right"></i>
+                                </small>
+                            </h1>
+                        </div>
+                        <div id="message-contact"></div>
+                        <div class="row">
+                            <div class="col-sm-6 col-sm-6">
+                                <h4 class="widget-title">Personal Details:</h4>
+                            </div>
+                        </div>
+                        <div class="row">
+                             <div class="col-md-1 col-sm-1">
+                                <div class="form-group">
+                                    <span id="ContentPlaceHolder1_lblDiscipline">Faculty</span>
+                                </div>
+                              </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="form-group">
+                                    
+                                    <span id="ContentPlaceHolder1_lblFaculty">Sciences &amp; Technology</span>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-1 col-sm-1">
+                                <div class="form-group">
+                                    <span id="ContentPlaceHolder1_lblSchools">School</span>
+                                </div>
+                              </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="form-group">
+                                    <span id="ContentPlaceHolder1_lblSchool">School of Engineering &amp; Technological Sciences</span>
+                                </div>
+                            </div>
+                           
+                            </div>
+                        <div class="row">
+                             <div class="col-md-1 col-sm-1">
+                                <div class="form-group">
+                                    <span id="ContentPlaceHolder1_lblDepartments">Department</span>
+                                </div>
+                              </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="form-group">
+                                    <span id="ContentPlaceHolder1_lblDepartment">Department of Computer Engineering </span>
+                                </div>
+                            </div>
+                            <div class="col-md-1 col-sm-1">
+                                <div class="form-group">
+                                    <span id="ContentPlaceHolder1_lblPrograms">Programme</span>
+                                </div>
+                              </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="form-group">
+
+                                    
+                                    <span id="ContentPlaceHolder1_lblProgram">Bachelor of Technology (Artificial Intelligence and Data Science)</span>
+                                </div>
+                        </div>
+                        </div>
+                        <div class="row" id="dvProgramYear">
+                             <div class="col-md-1 col-sm-1">
+                                <div class="form-group">
+                                    <span id="ContentPlaceHolder1_lblApplicantName">Applicant Name</span>
+                                </div>
+                              </div>
+                            <div class="col-md-4 col-sm-4">
+                                <div class="form-group">
+                                    <input name="ctl00$ContentPlaceHolder1$txtApplicantName" type="text" value="Muhammad Affan H Tanke" readonly="readonly" id="ContentPlaceHolder1_txtApplicantName" class="form-control style_2" placeholder="Applicant Name">
+                                    <span id="ContentPlaceHolder1_RequiredFieldValidator8" style="color:Red;visibility:hidden;">Please Enter Applicant Name</span>
+                                </div>
+                            </div>
+                            <div class="col-md-1 col-sm-1">
+                                        <div class="form-group">
+                                            <span id="ContentPlaceHolder1_lblProgramYear"> Program Year</span>
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4">
+                                        <div class="form-group">
+                                            <select name="ctl00$ContentPlaceHolder1$ddProgramYear" id="ContentPlaceHolder1_ddProgramYear" class="form-control style_2">
+	<option value="0">---Select Program Year---</option>
+	<option value="1">First Year</option>
+	<option value="2">Second Year</option>
+	<option value="3">Third Year</option>
+	<option value="4">Fourth Year</option>
+	<option value="5">Fifth Year</option>
+
+</select>
+                                            <span id="ContentPlaceHolder1_RequiredFieldValidator1" style="color:Red;visibility:hidden;">Please Select Program Year</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1 col-sm-1">
+                                        <div class="form-group">
+                                            <span id="ContentPlaceHolder1_lblProgramYears" style="color:Red;">*</span>
+                                        </div>
+
+                                    </div>
+                        </div>
+                        <div class="row">
+                             <div class="col-md-1 col-sm-1">
+                                        <div class="form-group">
+                                            <span id="ContentPlaceHolder1_lblSemester">Semester</span>
+                                           
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4">
+                                        <div class="form-group">
+                                            <select name="ctl00$ContentPlaceHolder1$ddSemester" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ddSemester\&#39;,\&#39;\&#39;)&#39;, 0)" id="ContentPlaceHolder1_ddSemester" class="form-control style_2">
+	<option selected="selected" value="0">---Select Semester---</option>
+	<option value="1">Semester I</option>
+	<option value="2">Semester II</option>
+	<option value="3">Semester III</option>
+	<option value="4">Semester IV</option>
+	<option value="5">Semester V</option>
+	<option value="6">Semester VI</option>
+	<option value="7">Semester VII</option>
+	<option value="8">Semester VIII</option>
+
+</select>
+                                            <span id="ContentPlaceHolder1_RequiredFieldValidator3" style="color:Red;visibility:hidden;">Please Select Semester</span>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-1 col-sm-1">
+                                        <div class="form-group">
+                                            <span id="ContentPlaceHolder1_Label2" style="color:Red;">*</span>
+                                        </div>
+
+                                    </div>
+                        </div>
+                        <div class="row">
+                            
+                        <div class="row">
+                            <div class="col-sm-6 col-sm-6">
+                                <h4 class="widget-title">Fees Details:</h4>
+                            </div>
+                        </div>
+                        <div class="row" style="margin-right: 50px">
+                            <div class="col-md-12 col-sm-12">
+                                <table class="table table-striped table-bordered table-hover">
+                                    <tbody><tr>
+                                        <td width="150px">Total Fees per year
+                                        </td>
+                                         <td width="150px">Installment I
+                                        </td>
+                                        <td width="150px">Installment II
+                                        </td>
+                                       <td width="150px">
+                                           Fine
+                                       </td>
+                                        <td width="150px">
+                                           Remaining Fees for Current Year
+                                       </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <span id="ContentPlaceHolder1_lblTotalFees" placeholder="Total Fees">210000</span>
+                                        </td>
+                                       
+                                        <td>
+                                            <span id="ContentPlaceHolder1_lblSemIFees" placeholder="Semester I Fees">105000</span>
+                                        </td>
+                                         <td>
+                                            <span id="ContentPlaceHolder1_lblSemIIFees" placeholder="Semester II Fees">105000</span>
+                                        </td> 
+                                         <td>
+                                            <span id="ContentPlaceHolder1_lblFine" placeholder="Fine">0</span>
+                                        </td> 
+                                         <td>
+                                            <span id="ContentPlaceHolder1_lblRemainingFees" placeholder="RemainingFees">105000</span>
+                                        </td> 
+                                    </tr>
+                                </tbody></table>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 col-sm-6">
+                                <h4 class="widget-title">Payment Details:</h4>
+                            </div>
+                        </div>
+                     
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4">
+                                <div class="form-group">
+                                    <select name="ctl00$ContentPlaceHolder1$ddPaymentMode" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ctl00$ContentPlaceHolder1$ddPaymentMode\&#39;,\&#39;\&#39;)&#39;, 0)" id="ContentPlaceHolder1_ddPaymentMode" class="form-control style_2">
+	<option selected="selected" value="0">Select Payment Mode</option>
+	<option value="1">Bank Deposit</option>
+	<option value="2">Demand Draft</option>
+	<option value="3">Cheque</option>
+	<option value="4">RTGS</option>
+	<option value="5">OnlinePayment</option>
+
+</select>
+                                    
+                                    <span id="ContentPlaceHolder1_RequiredFieldValidator6" style="color:Red;visibility:hidden;">Please Select Payment mode</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12">
+                                <div class="form-group">
+                                    <label id="PaymentdetailsError"></label>
+                                </div>
+                                 </div>
+                        </div>
+                      
+                        
+                        
+                      
+
+                        
+                           
+                        
+                        
+                        
+                        <div>
+                            <input type="hidden" name="ctl00$ContentPlaceHolder1$hfStatus" id="hfStatus">
+                        </div>
+                        <div class="row" style="text-align: center; padding-top: 10px">
+                            <span></span>
+                            <div class="col-md-12 col-sm-12">
+                                <div class="form-group" style="text-align: center">
+                                    <input type="submit" name="ctl00$ContentPlaceHolder1$btnSave" value="Submit" onclick="return Validate();WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ContentPlaceHolder1$btnSave&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" id="ContentPlaceHolder1_btnSave" class="btn btn-success">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+           
+        </div></section>
+    
+<script type="text/javascript">
+//<![CDATA[
+var Page_Validators =  new Array(document.getElementById("ContentPlaceHolder1_RequiredFieldValidator8"), document.getElementById("ContentPlaceHolder1_RequiredFieldValidator1"), document.getElementById("ContentPlaceHolder1_RequiredFieldValidator3"), document.getElementById("ContentPlaceHolder1_RequiredFieldValidator6"));
+//]]>
+</script>
+
+<script type="text/javascript">
+//<![CDATA[
+var ContentPlaceHolder1_RequiredFieldValidator8 = document.all ? document.all["ContentPlaceHolder1_RequiredFieldValidator8"] : document.getElementById("ContentPlaceHolder1_RequiredFieldValidator8");
+ContentPlaceHolder1_RequiredFieldValidator8.controltovalidate = "ContentPlaceHolder1_txtApplicantName";
+ContentPlaceHolder1_RequiredFieldValidator8.errormessage = "Please Enter Applicant Name";
+ContentPlaceHolder1_RequiredFieldValidator8.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ContentPlaceHolder1_RequiredFieldValidator8.initialvalue = "";
+var ContentPlaceHolder1_RequiredFieldValidator1 = document.all ? document.all["ContentPlaceHolder1_RequiredFieldValidator1"] : document.getElementById("ContentPlaceHolder1_RequiredFieldValidator1");
+ContentPlaceHolder1_RequiredFieldValidator1.controltovalidate = "ContentPlaceHolder1_ddProgramYear";
+ContentPlaceHolder1_RequiredFieldValidator1.errormessage = "Please Select Program Year";
+ContentPlaceHolder1_RequiredFieldValidator1.validationGroup = "ProgramYear";
+ContentPlaceHolder1_RequiredFieldValidator1.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ContentPlaceHolder1_RequiredFieldValidator1.initialvalue = "0";
+var ContentPlaceHolder1_RequiredFieldValidator3 = document.all ? document.all["ContentPlaceHolder1_RequiredFieldValidator3"] : document.getElementById("ContentPlaceHolder1_RequiredFieldValidator3");
+ContentPlaceHolder1_RequiredFieldValidator3.controltovalidate = "ContentPlaceHolder1_ddSemester";
+ContentPlaceHolder1_RequiredFieldValidator3.errormessage = "Please Select Semester";
+ContentPlaceHolder1_RequiredFieldValidator3.validationGroup = "ProgramYear";
+ContentPlaceHolder1_RequiredFieldValidator3.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ContentPlaceHolder1_RequiredFieldValidator3.initialvalue = "0";
+var ContentPlaceHolder1_RequiredFieldValidator6 = document.all ? document.all["ContentPlaceHolder1_RequiredFieldValidator6"] : document.getElementById("ContentPlaceHolder1_RequiredFieldValidator6");
+ContentPlaceHolder1_RequiredFieldValidator6.controltovalidate = "ContentPlaceHolder1_ddPaymentMode";
+ContentPlaceHolder1_RequiredFieldValidator6.errormessage = "Please Select Payment mode";
+ContentPlaceHolder1_RequiredFieldValidator6.evaluationfunction = "RequiredFieldValidatorEvaluateIsValid";
+ContentPlaceHolder1_RequiredFieldValidator6.initialvalue = "0";
+//]]>
+</script>
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+var Page_ValidationActive = false;
+if (typeof(ValidatorOnLoad) == "function") {
+    ValidatorOnLoad();
+}
+
+function ValidatorOnSubmit() {
+    if (Page_ValidationActive) {
+        return ValidatorCommonOnSubmit();
+    }
+    else {
+        return true;
+    }
+}
+        //]]>
+</script>
+</form>
+     
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#CashPayment').hide();
+            $('#DemandDraftPayment').hide();
+            $('#ChequePayment').hide();
+            $('#RTGSPayment').hide();    
+            $('#OnlinePayment').hide();
+        });
+
+        $('.date-picker').datepicker({
+            autoclose: true,
+            todayHighlight: true
+        })
+                 //show datepicker when clicking on the icon
+                 .next().on(ace.click_event, function () {
+                     $(this).prev().focus();
+                 });
+
+        //or change it into a date range picker
+        $('.input-daterange').datepicker({ autoclose: true });
+
+        function isNumberKey(evt) {
+            var charCode = (evt.which) ? evt.which : event.keyCode
+            if (charCode > 31 && (charCode < 48 || charCode > 57))
+                return false;
+
+            return true;
+        }
+        function Validate() {
+         
+            var isValid = false;
+            var paymentmode = $("[id*='ddPaymentMode'] :selected").text();
+            if (paymentmode == "Demand Draft") {
+                isValid = Page_ClientValidate('DDGroup');
+                isYear = Page_ClientValidate('ProgramYear');
+                if (isValid == true && isYear==true) {
+                    var confirm_value = document.createElement("INPUT");
+                    confirm_value.type = "hidden";
+                    confirm_value.name = "confirm_value";
+                    if (confirm("Are you sure? Once after submission you can not change this Information")) {
+                        confirm_value.value = "Yes";
+                    } else {
+                        confirm_value.value = "No";
+                    }
+                    document.getElementById("hfStatus").value = confirm_value.value
+                }
+                return isValid;
+            }
+
+            if (paymentmode == "Cheque") {
+                isValid = Page_ClientValidate('ChequeGroup');
+                isYear = Page_ClientValidate('ProgramYear');
+                if (isValid == true && isYear==true) {
+                    var confirm_value = document.createElement("INPUT");
+                    confirm_value.type = "hidden";
+                    confirm_value.name = "confirm_value";
+                    if (confirm("Are you sure? Once after submission you can not change this Information")) {
+                        confirm_value.value = "Yes";
+                    } else {
+                        confirm_value.value = "No";
+                    }
+                    document.getElementById("hfStatus").value = confirm_value.value
+
+                }
+                return isValid;
+            }
+            if (paymentmode == "Bank Deposit") {
+                isValid = Page_ClientValidate('BankDepositGroup');
+                isYear = Page_ClientValidate('ProgramYear');
+                if (isValid == true && isYear==true) {
+                    var confirm_value = document.createElement("INPUT");
+                    confirm_value.type = "hidden";
+                    confirm_value.name = "confirm_value";
+                    if (confirm("Are you sure? Once after submission you can not change this Information")) {
+                        confirm_value.value = "Yes";
+                    } else {
+                        confirm_value.value = "No";
+                    }
+                    document.getElementById("hfStatus").value = confirm_value.value
+
+                }
+                return isValid;
+            }
+            
+            if (paymentmode == "RTGS") {
+                isValid = Page_ClientValidate('RTGSGroup');
+                isYear = Page_ClientValidate('ProgramYear');
+                if (isValid == true && isYear==true) {
+                    var confirm_value = document.createElement("INPUT");
+                    confirm_value.type = "hidden";
+                    confirm_value.name = "confirm_value";
+                    if (confirm("Are you sure? Once after submission you can not change this Information")) {
+                        confirm_value.value = "Yes";
+                    } else {
+                        confirm_value.value = "No";
+                    }
+                    document.getElementById("hfStatus").value = confirm_value.value
+                }
+                return isValid;
+            }
+            if (paymentmode == "OnlinePayment") {
+                //isValid = true;
+                isValid = Page_ClientValidate('OnlineGroup');
+                isYear = Page_ClientValidate('ProgramYear');
+                if (isValid == true && isYear == true) {
+                    var confirm_value = document.createElement("INPUT");
+                    confirm_value.type = "hidden";
+                    confirm_value.name = "confirm_value";
+                    if (confirm("Are you sure? Once after submission you can not change this Information")) {
+                        
+                        confirm_value.value = "Yes";
+                    } else {
+                        confirm_value.value = "No";
+                    }
+                    document.getElementById("hfStatus").value = confirm_value.value
+
+                }
+                return isValid;
+            }
+            return isValid;
+        }
+
+       
+       
+
+        function GetSelectedTextValue(ddPaymentMode) {
+            var selectedText = ddPaymentMode.options[ddPaymentMode.selectedIndex].innerHTML;
+            var selectedValue = ddPaymentMode.value;
+            if (selectedText == "Bank Transfer") {
+                $('#BankTransferPayment').show();
+                $('#DemandDraftPayment').hide();
+                $('#ChequePayment').hide();
+                $('#RTGSPayment').hide();
+            }
+            if (selectedText == 'Demand Draft') {
+                $('#BankTransferPayment').hide();
+                $('#DemandDraftPayment').show();
+                $('#ChequePayment').hide();
+                $('#RTGSPayment').hide();
+            }
+            if (selectedText == 'Cheque') {
+                $('#BankTransferPayment').hide();
+                $('#DemandDraftPayment').hide();
+                $('#ChequePayment').show();
+                $('#RTGSPayment').hide();
+            }
+            if (selectedText == 'RTGS') {
+                $('#BankTransferPayment').hide();
+                $('#DemandDraftPayment').hide();
+                $('#ChequePayment').hide();
+                $('#RTGSPayment').show();
+            }
+            if (selectedText == 'OnlinePayment') {
+                $('#BankTransferPayment').hide();
+                $('#DemandDraftPayment').hide();
+                $('#ChequePayment').hide();
+                $('#RTGSPayment').hide();
+            }
+        }
+
+
+</script>
+
+						<!-- /.row -->
+					</div><!-- /.page-content -->
+				</div>
+			</div><!-- /.main-content -->
+
+			<div class="footer">
+				<div class="footer-inner">
+					<!-- #section:basics/footer -->
+					<div class="footer-content">
+						<span class="bigger-120">
+							<span class="blue bolder">VISHWAKARMA UNIVERSITY </span>
+							 © 2017
+						</span>
+
+						&nbsp; &nbsp;
+						
+					</div>
+
+					<!-- /section:basics/footer -->
+				</div>
+			</div>
+
+			
+		</div><!-- /.main-container -->
+
+		
+		<script type="text/javascript">
+		    window.jQuery || document.write("<script src='../BootstrapContent/assets/js/jquery.js'>" + "<" + "/script>");
+		</script>
+
+		
+		<script type="text/javascript">
+		    if ('ontouchstart' in document.documentElement) document.write("<script src='../BootstrapContent/assets/js/jquery.mobile.custom.js'>" + "<" + "/script>");
+		</script>
+        <script src="./Vishwakarma University4_files/jquery.js"></script>
+		<script src="./Vishwakarma University4_files/bootstrap.js"></script>
+
+		<!-- page specific plugin scripts -->
+		<script src="./Vishwakarma University4_files/bootstrap-datepicker.js"></script>
+		<script src="./Vishwakarma University4_files/jquery.jqGrid.src.js"></script>
+		<script src="./Vishwakarma University4_files/grid.locale-en.js"></script>
+
+		<!-- ace scripts -->
+		<script src="./Vishwakarma University4_files/elements.scroller.js"></script>
+		<script src="./Vishwakarma University4_files/elements.colorpicker.js"></script>
+		<script src="./Vishwakarma University4_files/elements.fileinput.js"></script>
+		<script src="./Vishwakarma University4_files/elements.typeahead.js"></script>
+		<script src="./Vishwakarma University4_files/elements.wysiwyg.js"></script>
+		<script src="./Vishwakarma University4_files/elements.spinner.js"></script>
+		<script src="./Vishwakarma University4_files/elements.treeview.js"></script>
+		<script src="./Vishwakarma University4_files/elements.wizard.js"></script>
+		<script src="./Vishwakarma University4_files/elements.aside.js"></script>
+		<script src="./Vishwakarma University4_files/ace.js"></script>
+		<script src="./Vishwakarma University4_files/ace.ajax-content.js"></script>
+		<script src="./Vishwakarma University4_files/ace.touch-drag.js"></script>
+		<script src="./Vishwakarma University4_files/ace.sidebar.js"></script>
+		<script src="./Vishwakarma University4_files/ace.sidebar-scroll-1.js"></script>
+		<script src="./Vishwakarma University4_files/ace.submenu-hover.js"></script>
+		<script src="./Vishwakarma University4_files/ace.widget-box.js"></script>
+		<script src="./Vishwakarma University4_files/ace.settings.js"></script>
+		<script src="./Vishwakarma University4_files/ace.settings-rtl.js"></script>
+		<script src="./Vishwakarma University4_files/ace.settings-skin.js"></script>
+		<script src="./Vishwakarma University4_files/ace.widget-on-reload.js"></script>
+		<script src="./Vishwakarma University4_files/ace.searchbox-autocomplete.js"></script>
+
+		
+		<link rel="stylesheet" href="./Vishwakarma University4_files/ace.onpage-help.css">
+		<link rel="stylesheet" href="./Vishwakarma University4_files/sunburst.css">
+
+		<script type="text/javascript"> ace.vars['base'] = '..'; </script>
+		<script src="./Vishwakarma University4_files/elements.onpage-help.js"></script>
+		<script src="./Vishwakarma University4_files/ace.onpage-help.js"></script>
+		<script src="./Vishwakarma University4_files/rainbow.js"></script>
+		<script src="./Vishwakarma University4_files/generic.js"></script>
+		<script src="./Vishwakarma University4_files/html.js"></script>
+		<script src="./Vishwakarma University4_files/css.js"></script>
+		<script src="./Vishwakarma University4_files/javascript.js"></script>
+	
+
+</body></html>
